@@ -1,0 +1,1000 @@
+It requests notice. It can be used after connecting with actual SMS text and EMAIL sending server. For SMS, the caller ID is : 0101112222 For E-Mail, the caller ID is : admin@bankwareglobal.com
+Clone the array.
+Check if the issued media is available. Throw error if it is unavailable.
+Clone the array.
+Store one extended attribute of Subsidiary Information(CTI). Storage logic implemented in the project is performed at the time of performance.
+Save an asset thing subsidiary information.
+Save an asset transaction subsidiary information.
+Clone the array.
+Clone the array.
+Clone the array.
+Check whether the service is restricted by the service code. If restricted service, call the error message (AAPSVE0009).
+Set transaction yn.
+Processing rules should be commonly performed according to the rules defined in the service processing rule, based on the service type input.
+Clone the array.
+Clone the array.
+This method save settlement subsidiary detail information using subInfoMap.
+Inquire all of active arrangement/asset relation extended attribute of subsidiary information(CTI)
+Clone the array.
+This method provide settlement subsidiary detail information.
+Clone the array.
+It calculates next number. Compared to the default method, the omitted 'instCd' value is replaced by instCd in Common Context. Compared to the default method, the omitted 'isReUseSameTxNbrg' value is treated as false.
+Clone the array.
+It gets list of http header properties.
+It verifies whether the service being executed is a service executed by the execution branch or the terminal.
+This method save settlement subsidiary calculation detail information using subInfoMap
+Perform interest rate rebuild.
+It gets list of http header properties.
+Inquire a list of child arrangement.
+Change maturity date of arrangement.
+Inquiry institution through institution code in header.
+Clone the array.
+terminate assessment status
+Clone the array.
+It verifies whether the service being executed is a service executed by the execution branch or the terminal.
+Inquire financial institution code where the arrangement is created and managed.
+Inquire foreign exchange subsidiary information of arrangement.
+It inquiries basic statutory address of specific region in Korea.
+Process the special action to process "Service Process Rule" related to representative service type, which is registered to the specific service. For example, the "Open Deposit" service must validate available channel, available age, and subscribe limit count. These process rules are implemented in seperated classes in terms of each product condition. Each process rule class cab be registered to specific service type in Configuration Admin. Service process rule includes "Product Condition Process Rule" and "Extend Attribute Process Rule". Implementation of product condition process rule : - The rules that should be processed in terms of product condition are implemented in arrangement condition class which implements {@link ArrCndAction}. - To specify : Business Rule > Arrangement Rule > Service Rule > TREE : Select a service type > Product Condition Code TAB Implementation of extend attribute process rule : - The rules that should be processed in terms of product condition are implemented in extend attribute class which implements {@link ArrXtnAtrbtAction}. - To specify : Business Rule > Arrangement Rule > Service Rule > TREE : Select a service type > Extend Attribute Rule TAB Responsibility of implementation of product condition process rule and extend attribute process rule : Each service team in charge of business process implements according to the guide.
+Change condition value of arrangement level condition and create condition value change history. If there is condition value history, terminate it one and create new one. Update applied interest table if it is interest condition.
+Methods to get condition base light If point code is null, get common condition. Even if point code is not null, if it is common condition, get common condition. Else get point condition. If the condition has no value, use intRtAplyBaseDayCd of previous history.
+Clone the array.
+Process the special action to process "Service Process Rule" related to specific service type. For example, the "Open Deposit" service must validate available channel, available age, and subscribe limit count. These process rules are implemented in seperated classes in terms of each product condition. Each process rule class cab be registered to specific service type in Configuration Admin. Service process rule includes "Product Condition Process Rule" and "Extend Attribute Process Rule". Implementation of product condition process rule : - The rules that should be processed in terms of product condition are implemented in arrangement condition class which implements {@link ArrCndAction}. - To specify : Business Rule > Arrangement Rule > Service Rule > TREE : Select a service type > Product Condition Code TAB Implementation of extend attribute process rule : - The rules that should be processed in terms of product condition are implemented in extend attribute class which implements {@link ArrXtnAtrbtAction}. - To specify : Business Rule > Arrangement Rule > Service Rule > TREE : Select a service type > Extend Attribute Rule TAB Responsibility of implementation of product condition process rule and extend attribute process rule : Each service team in charge of business process implements according to the guide.
+Get attribute type
+Save an appraisal preferential claim subsidiary information.
+Inquire the extended attribute information that matches the input attribute name. If the matching extended attribute information doesn't exist, it returns null.
+Process the special action to process "Service Process Rule" related to representative service type, which is registered to the specific service. For example, the "Open Deposit" service must validate available channel, available age, and subscribe limit count. These process rules are implemented in seperated classes in terms of each product condition. Each process rule class cab be registered to specific service type in Configuration Admin. Service process rule includes "Product Condition Process Rule" and "Extend Attribute Process Rule". Implementation of product condition process rule : - The rules that should be processed in terms of product condition are implemented in arrangement condition class which implements {@link ArrCndAction}. - To specify : Business Rule > Arrangement Rule > Service Rule > TREE : Select a service type > Product Condition Code TAB Implementation of extend attribute process rule : - The rules that should be processed in terms of product condition are implemented in extend attribute class which implements {@link ArrXtnAtrbtAction}. - To specify : Business Rule > Arrangement Rule > Service Rule > TREE : Select a service type > Extend Attribute Rule TAB Responsibility of implementation of product condition process rule and extend attribute process rule : Each service team in charge of business process implements according to the guide.
+query list of condition template information
+Save the insurance subsidiary information using map.
+Clone the array.
+Check whether the service is restricted by the service code. If restricted service, call the error message (AAPSVE0009).
+This method inquire condition group template code.
+Clone the array.
+It query institution parameter attribute value simply. if want to get the value of attribute for each institution, use the method instead of instParmMngr.getInstParm method.
+It checks center cut channel.
+Inquire the extended attribute information that matches the input attribute name. If the matching extended attribute information doesn't exist, it returns null.
+This Method inquire of products of related to benefit by product relatipn type distinction code. if there is no product relatipn type distinction code, all products inquire
+This method provides the function for inquiring all of subsidiary information about transaction as MAP type.
+It performs common service processing rules defined in the service processing rules and whether the contract-based service is available, based on the service type input. Whether contract services are available verifies: 1) Verification of service restriction based on product information of contract. 2) Verification of restriction related to the service set in the contract such as pledge setting. 3) Perform verification rules that should be performed in common as the requirement that dead customers should not become financial transactions.
+Clone the array.
+Delete all occurrences of the given substring.
+It calculates next number.
+Inquire customer object by institution code and customer identification.
+Check whether the service is restricted by the service code. If restricted service, call the error message (AAPSVE0009).
+It get a http header properties.
+Clone the array.
+Inquire all subsidiary information of the insurance as a map.
+Check whether the service is restricted by the service code. If restricted service, call the error message (AAPSVE0009).
+Inquire available arrangement/customer related person's relation information on specific date.
+It calculates next number. Compared to the default method, the omitted 'instCd' value is replaced by instCd in Common Context. Compared to the default method, the omitted 'isReUseSameTxNbrg' value is treated as false.
+Get a list of arrangement issued media template in specific type.
+Clone the array.
+Clone the array.
+Clone the array.
+Preview Document template
+Clone the array.
+This method inquire condition value.
+Clone the array.
+This method provide settlement subsidiary detail information.
+It verifies whether the service being executed is a service executed by the execution branch or the terminal.
+Clone the array.
+It get a http header properties.
+This method save settlement subsidiary detail information using interface VO.
+Check whether the service is restricted by the service code. If restricted service, call the error message (AAPSVE0009).
+Inquire financial institution code by which the arrangement is created and managed.
+Clone the array.
+This method save settlement subsidiary calculation detail information using subInfoMap
+It performs calculations.
+Clone the array.
+Clone the array.
+This method provides the function for inquiring all of subsidiary information about transaction as MAP type.
+Check whether the service is restricted by the service code. If restricted service, call the error message (AAPSVE0009).
+Check if the issued media is available. Throw error if it is unavailable.
+Change arrangement staff relationship.
+Delete the security interest.
+Delete all occurrences of the given substring.
+Inquire customer's latest login history. It includes failed login attempts.
+Check whether the service is restricted by the service code. If restricted service, call the error message (AAPSVE0009).
+Clone the array.
+It gets list of http header properties.
+Methods to query interest calculation sections - All interest calculation section for each institution are inquired
+Clone the array.
+Save the last booking information of passbook.
+Save an asset subsidiary information.
+Inquire the address information that matches the input contact point location type code, contact method type code.
+It get a http header properties.
+This function execute the extended attribute business rules that registered in the Contract Services Processing Rules.
+Save (create or change ) extend attribute.
+Clone the array.
+Remove a specific extended information of the insurance.
+This Method inquire additional information related to point. if there is no additional information code, all additional information inquire
+Inquire whether if there is arrangement issued media relation of specific issued media type.
+It get a http header properties.
+It registers the self authentication code information. Needs caution as the registered information performs the update transaction. It gets the first institution code in the list and query the entire contents.
+This method check the code number. If code is exist return true, else return false.
+Clone the array.
+Save the appraisal thing subsidiary information using map.
+It registers customer agreement code information list. If registered information by the same institution code and agreement type code exists, throws exception.
+Methods for querying list condition names
+Clone the array.
+This method provide settlement subsidiary calculation detail information.
+This method inquire condition value.
+Clone the array.
+This method inquire Is Child Point usable.
+Clone the array.
+Store several extended attributes of Subsidiary Information(CTI). Storage logic implemented in the project is performed at the time of performance.
+This function execute the extended attribute business rules that registered in the Contract Services Processing Rules.
+Clone the array.
+Clone the array.
+Clone the array.
+It gets list of http header properties.
+Clone the array.
+Query English attribute name
+Inquiry active institution service list by institution code, component code, base date
+Clone the array.
+Clone the array.
+Save arrangement relation extended attribute to the arrangement.
+This Method inquire additional information related to point by additional information distinction code. if there is no additional information distinction code, all additional information inquire
+It calculates the date of the day. (±1~2 days)
+Clone the array.
+Methods to inquiry all benefit list - View all benefits ( sale + end of sale + Selling in the future )
+This method provide settlement subsidiary calculation detail information.
+Clone the array.
+Query institution parameter attribute information Please use CaInstParmProvider.getListInstParamAtrbtInfo method
+It get a http header properties.
+Clone the array.
+This method provides the function for inquiring the basic information of transaction.
+This method inquire institution code.
+Clone the array.
+This method inquire apply start time of product condition.
+Change maturity date of arrangement.
+It verifies whether the service being executed is a service executed by the execution branch or the terminal.
+This method inquire benefit code
+Check whether the service is restricted by the service code. If restricted service, call the error message (AAPSVE0009).
+This method is used to register department closing in specific business date. You can register department opening/closing using closing distinction code. (@link ClsgDscdEnum)
+This Method inquire Benefit and merchant relation list Backward
+It inquiries Korea address list.
+It inquiries credit rating grade information list.
+Inquire the extended attribute information that matches the input attribute name. If the matching extended attribute information doesn't exist, it returns null.
+Inquire Actor object by the input actor identification from current institution. It inquires the effective actor unique identification number information on transaction date. If the result doesn't exist, it returns null.
+Clone the array.
+It verifies whether the service being executed is a service executed by the execution branch or the terminal.
+Clone the array.
+Clone the array.
+Inquire a list of active service blocking information of deposit arrangement in active status owned by main contractor customer of the membership arrangement.
+It verifies whether the service being executed is a service executed by the execution branch or the terminal.
+Methods for querying the relationship between condition group template and condition template
+Clone the array.
+This method inquires teller object by institution code, department identification, staff identification.
+Clone the array.
+Clone the array.
+Clone the array.
+Clone the array.
+Inquire a specific subsidiary information of the insurance.
+Clone the array.
+Inquire arrangement plans which are currently in specific status with arrangement service type ENUM, plan execution date, and plan status code.
+Clone the array.
+Clone the array.
+Validate Query for Distribution Validation
+Query standard institution code of institution value of standard institution code.
+Query table extend attribute extend attribute list. table extend attribute extend attribute meaning the actual value of the item defined in the table extend attribute validation composition
+Clone the array.
+Validate the attribute value ( Simple Validation ) Implemented and used by each business component.
+Store one extended attribute of Subsidiary Information(CTI). Storage logic implemented in the project is performed at the time of performance.
+This method inquire condition group template code.
+Inquire entire extended information of subsidiary information(CTI) as MAP type.
+A method that compares the value of a condition class to the value of a range condition.
+Inquire a specific subsidiary information of the appraisal.
+Store one extended attribute of Subsidiary Information(CTI). Storage logic implemented in the project is performed at the time of performance.
+This method inquire interest rate structure status code
+Clone the array.
+Process the special action to process "Service Process Rule" related to representative service type, which is registered to the specific service. For example, the "Open Deposit" service must validate available channel, available age, and subscribe limit count. These process rules are implemented in seperated classes in terms of each product condition. Each process rule class cab be registered to specific service type in Configuration Admin. Service process rule includes "Product Condition Process Rule" and "Extend Attribute Process Rule". Implementation of product condition process rule : - The rules that should be processed in terms of product condition are implemented in arrangement condition class which implements {@link ArrCndAction}. - To specify : Business Rule > Arrangement Rule > Service Rule > TREE : Select a service type > Product Condition Code TAB Implementation of extend attribute process rule : - The rules that should be processed in terms of product condition are implemented in extend attribute class which implements {@link ArrXtnAtrbtAction}. - To specify : Business Rule > Arrangement Rule > Service Rule > TREE : Select a service type > Extend Attribute Rule TAB Responsibility of implementation of product condition process rule and extend attribute process rule : Each service team in charge of business process implements according to the guide.
+Restores the repayment schedule when the transaction is cancelled.
+Inquire children arrangement structure including mandatory and optional.
+Inquire boolean whether arrangement condition has valid value.
+This method save settlement subsidiary calculation detail information using subInfoMap
+Validate Query for Distribution Validation
+Clone the array.
+Change maturity date of standing order.
+Clone the array.
+This Method inquire additional information related to point. if there is no additional information code, all additional information inquire
+Clone the array.
+Clone the array.
+Inquire a specific subsidiary information of the asset.
+Inquire specific department own (as accounting department) arrangements whose status changed into specific status within inquiry period and currently in another specific status. Current Status / Base Status / Inquiry Period(Start Date / End Date) Approved / Applied / 1/1 ~ 3/1 : Inquire arrangement applied within 1/1 ~ 3/1 and approved currently. Arrangement whose status was changed into other status on 1/1 is not inquired. Active / Applied / 1/1 ~ 3/1 : Inquire arrangement applied within 1/1 ~ 3/1 and activated currently. Arrangement whose status was changed into other status on 1/1 is not inquired. Active / Active / 1/1 ~ 3/1 : Inquire arrangement activated within 1/1 ~ 3/1 and still activated currently. Arrangement whose status was changed into other status on 1/1 is not inquired.
+This method inquire condition status code.
+This method calculates the interest of account accordance with type of interest transaction. It must be performed after executing normally the createCalculator method.
+Inquire all extended information of the appraisal request as a map.
+Offering terminology that fit with the language code.
+get bean
+Clone the array.
+It calculates the remaining period from the current day to the specific end date (hour, minute, second). End date must be greater than current time.
+Inquiry reference object list.
+Validate Query for Distribution Validation
+joint network classification code inquiry from standard message
+This method save settlement subsidiary calculation detail information using xtnAtrbtNm and xtnAtrbtCntnt
+This function execute the extended attribute business rules that registered in the Contract Services Processing Rules.
+It gets list of http header properties.
+Inquire a specific subsidiary information of the asset.
+Clone the array.
+Change arrangement relation rule.
+Inquire the extended attribute information that matches the input attribute name. If the matching extended attribute information doesn't exist, it returns null.
+Inquire all subsidiary information of the appraisal preferential claim as a map.
+Store one extended attribute of Subsidiary Information(CTI). Storage logic implemented in the project is performed at the time of performance.
+Clone the array.
+Inquire a specific subsidiary information of the appraisal thing.
+Make the combo-box of Code that meet the search condition. Combo-box is consisted of CaCmnCdCheckOut. (cdNbr, cd, cdNm, delYn, cdAbrvtnNm)
+Check whether the service is restricted by the service code. If restricted service, call the error message (AAPSVE0009).
+It inquires basic information of insurance.
+It get a http header properties.
+Clone the array.
+It check code number & code value by cdDtlIO DTO. The arguments for this method is a pair of code number and code. It returns true if there are query result of parameter.
+Check whether the service is restricted by the service code. If restricted service, call the error message (AAPSVE0009).
+Check whether the service is restricted by the service code. If restricted service, call the error message (AAPSVE0009).
+Clone the array.
+It get a http header properties.
+Store several extended attributes of Subsidiary Information(CTI). Storage logic implemented in the project is performed at the time of performance.
+Clone the array.
+Get list of the mask attribute
+Inquire existence of arrangement/document relation.
+Get the list of passbook message.
+get bean
+This method save settlement subsidiary detail information using subInfoMap.
+Check whether the service is restricted by the service code. If restricted service, call the error message (AAPSVE0009).
+Get the DTO attribute
+Delete the security interest.
+Clone the array.
+This method inquire apply end date and time of point condition.
+It verifies whether the service being executed is a service executed by the execution branch or the terminal.
+Clone the array.
+Clone the array.
+It register insurance information for the asset and return a insurance object to access it.
+It check code number & code value. The arguments for this method is a pair of code number and code. It returns true if there are query result of parameter
+It inquiries the document information history with classification.
+This Method light inquire multiple services provided condition list
+get condition template information
+Clone the array.
+Clone the array.
+Validate the attribute value ( Complex Validation ) Implemented and used by each business component.
+Clone the array.
+Validate the attribute value ( Simple Validation ) Implemented and used by each business component.
+A method that compares the value of a condition class to the value of a range condition.
+Inquire all subsidiary information of the asset thing as a map.
+Clone the array.
+Clone the array.
+Check whether the service is restricted by the service code. If restricted service, call the error message (AAPSVE0009).
+- Save of important certificate classification profile information - Functionalities Registration of important certificate classification profile information Modify of important certificate classification profile information
+Inquire specific customer own (as main contractor) arrangements of specific product code whose status changed into specific status within inquiry period and currently in another specific status.
+Inquire arrangement issued media relation information registered to arrangement based on issued media type and issued media inherence id.
+select change history list
+Clone the array.
+Inquire specific department own (as accounting department) arrangements whose status changed into specific status within inquiry period and currently in another specific status. Current Status / Base Status / Inquiry Period(Start Date / End Date) Approved / Applied / 1/1 ~ 3/1 : Inquire arrangement applied within 1/1 ~ 3/1 and approved currently. Arrangement whose status was changed into other status on 1/1 is not inquired. Active / Applied / 1/1 ~ 3/1 : Inquire arrangement applied within 1/1 ~ 3/1 and activated currently. Arrangement whose status was changed into other status on 1/1 is not inquired. Active / Active / 1/1 ~ 3/1 : Inquire arrangement activated within 1/1 ~ 3/1 and still activated currently. Arrangement whose status was changed into other status on 1/1 is not inquired.
+This Method inquire of branches of related to product by branch relation type distinction code. if there is no branch relation code, all branches inquire
+Clone the array.
+Clone the array.
+It verifies whether the service being executed is a service executed by the execution branch or the terminal.
+Inquire the base interest rate data type of distinction code.
+It verifies whether the service being executed is a service executed by the execution branch or the terminal.
+Query attribute name
+Inquire the extended attribute information that matches the input attribute name. If the matching extended attribute information doesn't exist, it returns null.
+Validate the attribute value ( Simple Validation ) Implemented and used by each business component.
+Clone the array.
+This method modifies information of arrangement transaction.
+Change the status of arrangement into "Applied", while change product of arrangement based on product code input. Following additional arrangement information can be registered. 1) Account number 2) Whether if created mandatory condition automatically or not 3) A list of arrangement level condition 4) A list of arrangement relation information 5) A list of arrangement extended attribute
+Inquire the transaction staff ID of this asset transaction.
+Store several extended attributes of Subsidiary Information(CTI). Storage logic implemented in the project is performed at the time of performance.
+Clone the array.
+Clone the array.
+This method inquire mandatory negotiation condition yes or no.
+Inquire currency code of arrangement
+Clone the array.
+Return the value of the subsidiary information to the previous value. However, this method is not invoked because no cancellation function is currently made in the asset area. If cancellation function is made in the asset area, this method should be called through the method {@link AssetSubInfoBiz #undoSubInfo}.
+Clone the array.
+Save an asset thing subsidiary information.
+This method is for inquiring the list of department closing status. After that, it returns department closing status list of specific base date.
+Process the special action to process "Service Process Rule" related to representative service type, which is registered to the specific service. For example, the "Open Deposit" service must validate available channel, available age, and subscribe limit count. These process rules are implemented in seperated classes in terms of each product condition. Each process rule class cab be registered to specific service type in Configuration Admin. Service process rule includes "Product Condition Process Rule" and "Extend Attribute Process Rule". Implementation of product condition process rule : - The rules that should be processed in terms of product condition are implemented in arrangement condition class which implements {@link ArrCndAction}. - To specify : Business Rule > Arrangement Rule > Service Rule > TREE : Select a service type > Product Condition Code TAB Implementation of extend attribute process rule : - The rules that should be processed in terms of product condition are implemented in extend attribute class which implements {@link ArrXtnAtrbtAction}. - To specify : Business Rule > Arrangement Rule > Service Rule > TREE : Select a service type > Extend Attribute Rule TAB Responsibility of implementation of product condition process rule and extend attribute process rule : Each service team in charge of business process implements according to the guide.
+It performs common service processing rules defined in the service processing rules and whether the contract-based service is available, based on the service type input. Whether contract services are available verifies: 1) Verification of service restriction based on product information of contract. 2) Verification of restriction related to the service set in the contract such as pledge setting. 3) Perform verification rules that should be performed in common as the requirement that dead customers should not become financial transactions.
+It activates self authentication. It removes special characters(-.) if authentication type is mobile phone.
+Offering terminology that fit with the language code.
+Clone the array.
+This method provide settlement subsidiary detail information.
+Clone the array.
+Clone the array.
+Store one extended attribute of subsidiary information(CTI). Storage logic implemented in the project is performed at the time of performance.
+Process the special action to process "Service Process Rule" related to representative service type, which is registered to the specific service. For example, the "Open Deposit" service must validate available channel, available age, and subscribe limit count. These process rules are implemented in seperated classes in terms of each product condition. Each process rule class cab be registered to specific service type in Configuration Admin. Service process rule includes "Product Condition Process Rule" and "Extend Attribute Process Rule". Implementation of product condition process rule : - The rules that should be processed in terms of product condition are implemented in arrangement condition class which implements {@link ArrCndAction}. - To specify : Business Rule > Arrangement Rule > Service Rule > TREE : Select a service type > Product Condition Code TAB Implementation of extend attribute process rule : - The rules that should be processed in terms of product condition are implemented in extend attribute class which implements {@link ArrXtnAtrbtAction}. - To specify : Business Rule > Arrangement Rule > Service Rule > TREE : Select a service type > Extend Attribute Rule TAB Responsibility of implementation of product condition process rule and extend attribute process rule : Each service team in charge of business process implements according to the guide.
+Clone the array.
+Clone the array.
+It inquires institution code where the teller belongs to.
+Clone the array.
+This method inquires settlement subsidiary detail information list (inquire all subsidiary detail information of a given settlement master by using the key value other than the detail sequence number).
+It verifies whether the service being executed is a service executed by the execution branch or the terminal.
+This method provide settlement subsidiary calculation detail information.
+get a extended information of subsidiary information(CTI)
+Clone the array.
+Save an appraisal subsidiary information.
+This function execute the extended attribute business rules that registered in the Contract Services Processing Rules.
+It inquires the max sequence number and min sequence number of journalizing processing target in deferred mode.
+Clone the array.
+Perform the condition action related to the specific service type. For example 1 , In case of loan installment disbursement possible condition ,the loan disbursement possible condition class' "doServiceAction" method dose the validation step like 1.investigates disbursed amount, 2.get product condition value whether installment disbursement is allowed, 3. make decision whether the service is permitted or not. The other example, the interest capitalization YN condition class do the action to make a interest capitalization arrangement plan on next planed date when arrangement open service is executed.
+Clone the array.
+It requests notice. It can be used after connecting with actual SMS text and EMAIL sending server. For SMS, the caller ID is : 0101112222 For E-Mail, the caller ID is : admin@bankwareglobal.com
+Inquire all extended information of the insurance as a map.
+Check whether the service is restricted by the service code. If restricted service, call the error message (AAPSVE0009).
+This method inquire customer account arrangement using arrangement ID. Detail function description refers to {@link #getArr(ArrRealGetIn)}.
+Check Transaction history should be recorded after numbering transaction sequence Functionalities Transaction history should be recorded after numbering transaction sequence. This method checks this rule.
+It performs common service processing rules defined in the service processing rules and whether the contract-based service is available, based on the representative service type registered to the specific service. Whether contract services are available verifies: 1) Verification of service restriction based on product information of contract. 2) Verification of restriction related to the service set in the contract such as pledge setting. 3) Perform verification rules that should be performed in common as the requirement that dead customers should not become financial transactions.
+Register Service.
+Clone the array.
+Process the special action to process "Service Process Rule" related to representative service type, which is registered to the specific service. For example, the "Open Deposit" service must validate available channel, available age, and subscribe limit count. These process rules are implemented in seperated classes in terms of each product condition. Each process rule class cab be registered to specific service type in Configuration Admin. Service process rule includes "Product Condition Process Rule" and "Extend Attribute Process Rule". Implementation of product condition process rule : - The rules that should be processed in terms of product condition are implemented in arrangement condition class which implements {@link ArrCndAction}. - To specify : Business Rule > Arrangement Rule > Service Rule > TREE : Select a service type > Product Condition Code TAB Implementation of extend attribute process rule : - The rules that should be processed in terms of product condition are implemented in extend attribute class which implements {@link ArrXtnAtrbtAction}. - To specify : Business Rule > Arrangement Rule > Service Rule > TREE : Select a service type > Extend Attribute Rule TAB Responsibility of implementation of product condition process rule and extend attribute process rule : Each service team in charge of business process implements according to the guide.
+Clone the array.
+This method inquire condition value.
+Clone the array.
+Inquire all subsidiary information of the asset thing as a map.
+Store several extended attributes of subsidiary information(CTI). Storage logic implemented in the project is performed at the time of performance.
+It verifies whether the service being executed is a service executed by the execution branch or the terminal.
+This method inquires a cancel target transaction date of the transaction.
+This Method inquire additional information related to product. if there is no additional information code, all additional information inquire
+This Method inquire sale start date time of product
+Check Attribute validation way code and Attribute validation rule.
+Clone the array.
+Inquire the basic information of the appraisal request.
+It modifies the actor's extended information list. If the extended attribute information is registered, it will be modified. Otherwise, it will be registered. The registered information only includes normal status information.
+This Method inquire sale end date of product
+Query apply start date
+Clone the array.
+Check whether the service is restricted by the service code. If restricted service, call the error message (AAPSVE0009).
+This method provides the function for inquiring list of basic information of transaction.
+It inquires the limit list of role. @seealso @note </div> <div class='ko'> @description <pre> 역할의 한도목록을 조회 한다.
+Check whether if arrangement is physically created.
+It check code number & code value. The arguments for this method is a pair of code number and code. It returns true if there are query result of parameter
+Clone the array.
+Inquire whether if arrangement issued media is effective. Not available status for transaction : Arrangement issued media status is Suspended, Terminated, Canceled or active service blocking is regisetered on the media
+Clone the array.
+Store one extended attribute of Subsidiary Information(CTI). Storage logic implemented in the project is performed at the time of performance.
+Store one extended attribute of Subsidiary Information(CTI). Storage logic implemented in the project is performed at the time of performance.
+Clone the array.
+Clone the array.
+Reckoning date inquiry from standard message
+It terminates a specific contact point information by the actor contact point identification and actor contact point change sequence number.
+Inquire subsidiary information of the staff as a VO.
+Methods to query card information
+This Method create a condition object. condition information initialization. condition object has condition defined in product or common condition information.
+Save the multi language.
+It transforms DTO object to JSON object
+Inquire the actor extended information map. Inquire extended information with normal extended attribute status code.
+Clone the array.
+Inquire the staff identification from staff basic information.
+Clone the array.
+Inquire a specific extended information of the asset thing.
+Clone the array.
+Clone the array.
+It get the code that meet the search condition. Code information is consisted of CmnCdCheckOut. (cdNbr, cd, cdNm, delYn, cdAbrvtnNm)
+Process the special action to process "Service Process Rule" related to representative service type, which is registered to the specific service. For example, the "Open Deposit" service must validate available channel, available age, and subscribe limit count. These process rules are implemented in seperated classes in terms of each product condition. Each process rule class cab be registered to specific service type in Configuration Admin. Service process rule includes "Product Condition Process Rule" and "Extend Attribute Process Rule". Implementation of product condition process rule : - The rules that should be processed in terms of product condition are implemented in arrangement condition class which implements {@link ArrCndAction}. - To specify : Business Rule > Arrangement Rule > Service Rule > TREE : Select a service type > Product Condition Code TAB Implementation of extend attribute process rule : - The rules that should be processed in terms of product condition are implemented in extend attribute class which implements {@link ArrXtnAtrbtAction}. - To specify : Business Rule > Arrangement Rule > Service Rule > TREE : Select a service type > Extend Attribute Rule TAB Responsibility of implementation of product condition process rule and extend attribute process rule : Each service team in charge of business process implements according to the guide.
+Save an asset transaction subsidiary information.
+Clone the array.
+This method inquire institution code of point
+Clone the array.
+It gets self authentication code information list.
+Clone the array.
+Check whether the attribute is exist in CBB table attribute
+Save an asset thing subsidiary information.
+It get a http header properties.
+This method provide settlement subsidiary detail information.
+Save an security interest subsidiary information.
+This method get sequence number. If the arrangement condition value is changed, it is increased.
+Clone the array.
+This method inquires the accumulated amount within the period you entered. If isMinusSkip is false, the negative amount is added the accumulated amount.
+Clone the array.
+This Method inquire benefit customer relation list.
+Clone the array.
+It closes the customer related person by updating delYn of basic information to 'Y'.
+Save a specific extended information of the asset thing.
+Validate Query Row Count for Distribution Validation
+Clone the array.
+Clone the array.
+Store one extended attribute of Subsidiary Information(CTI). Storage logic implemented in the project is performed at the time of performance.
+Store several extended attributes of Subsidiary Information(CTI). Storage logic implemented in the project is performed at the time of performance.
+It executes login process of the customer by the input login ID, password and login type code. If login ID and login type code is not input, main login information will be applied. It considers password error count, error allowance count exceeded YN, lock time and password update cycle. It leaves login attempt history. Exception must be handled separately at the service level according to the login result.
+It inquiries detail information of credit check result.
+It check code number & code value. The arguments for this method is a pair of code number and code. It returns true if there are query result of parameter
+Clone the array.
+It checks whether DBMS is MySQL
+Clone the array.
+Clone the array.
+It clears memory from common area (accounting area).
+Process the special action to process "Service Process Rule" related to specific service type. For example, the "Open Deposit" service must validate available channel, available age, and subscribe limit count. These process rules are implemented in seperated classes in terms of each product condition. Each process rule class cab be registered to specific service type in Configuration Admin. Service process rule includes "Product Condition Process Rule" and "Extend Attribute Process Rule". Implementation of product condition process rule : - The rules that should be processed in terms of product condition are implemented in arrangement condition class which implements {@link ArrCndAction}. - To specify : Business Rule > Arrangement Rule > Service Rule > TREE : Select a service type > Product Condition Code TAB Implementation of extend attribute process rule : - The rules that should be processed in terms of product condition are implemented in extend attribute class which implements {@link ArrXtnAtrbtAction}. - To specify : Business Rule > Arrangement Rule > Service Rule > TREE : Select a service type > Extend Attribute Rule TAB Responsibility of implementation of product condition process rule and extend attribute process rule : Each service team in charge of business process implements according to the guide.
+A method that compares the value of a condition class to the value of a range condition.
+It checks password.
+Clone the array.
+Inquire effective arrangement condition by product condition code. The returned condition object can be cast in to each specific type condition object such as {@link ArrCndLst} and {@link ArrCndRng}
+This method inquire complex condition value.
+Save the asset thing subsidiary information using map.
+Save subsidiary information of the asset transaction.
+Check whether the service is restricted by the service code. If restricted service, call the error message (AAPSVE0009).
+Inquire currency code of arrangement
+Store several extended attributes of Subsidiary Information(CTI). Storage logic implemented in the project is performed at the time of performance.
+Check whether the service is restricted by the service code. If restricted service, call the error message (AAPSVE0009).
+This method gets the sequence number of transaction about specific arrangement. - It gets the sequence number of transaction no transaction date about one arrangement in Core. - This function can be customized in site.
+It queries the list of variables in the formula.
+Inquire a specific extended information of the appraisal thing.
+Delete the security interest.
+Inquiry (or/and calculate) interest rate using formula which is predefined for request arrangement's product
+It verifies whether the service being executed is a service executed by the execution branch or the terminal.
+Validate the attribute value ( Complex Validation ) Implemented and used by each business component.
+It performs common service processing rules defined in the service processing rules and whether the contract-based service is available, based on the service type input. Whether contract services are available verifies: 1) Verification of service restriction based on product information of contract. 2) Verification of restriction related to the service set in the contract such as pledge setting. 3) Perform verification rules that should be performed in common as the requirement that dead customers should not become financial transactions.
+It get a http header properties.
+It converts 'julian date' and 'gregorian date' to each other.
+It registers customer agreement code information list. If registered information by the same institution code and agreement type code exists, throws exception.
+This method gets the current balance and update the last balance.
+Clone the array.
+Check whether the service is restricted by the service code. If restricted service, call the error message (AAPSVE0009).
+Terminate arrangement issued media blocking.
+This method inquire apply end date and time of benefit condition.
+get unique business bean in one transaction
+It make the combo-box of Code that meet the search condition. Combo-box is consisted of CmnCdCheckOut. (cdNbr, cd, cdNm, delYn, cdAbrvtnNm)
+This method get condition code.
+Method for displaying card information on pop-up screen
+It registers the actor role parameter information list. If there is registered actor role parameter information by the same institution, throws exception.
+This method inquire privide condition value.
+Store several extended attributes of Subsidiary Information(CTI). Storage logic implemented in the project is performed at the time of performance.
+Check whether the service is restricted by the service code. If restricted service, call the error message (AAPSVE0009).
+Clone the array.
+Clone the array.
+Check whether the service is restricted by the service code. If restricted service, call the error message (AAPSVE0009).
+Save an asset thing subsidiary information.
+It get a http header properties.
+This method inquire apply start date of product condition.
+It check code number & code value. The arguments for this method is a pair of code number and code. It returns true if there are query result of parameter
+Inquire condition value change history arrangement level condition of arrangement based on transaction which changed condition value.
+Save an security interest subsidiary information.
+Terminate arrangement arrangement relation
+Clone the array.
+Inquire a specific subsidiary information of the security interest.
+Method to check BigDecimal input value
+Clone the array.
+Clone the array.
+Clone the array.
+Save an security interest subsidiary information.
+Inquire a list of child arrangement.
+Check whether mandatory
+Clone the array.
+Clone the array.
+Clone the array.
+Change the status of arrangement into "Applied", while change product of arrangement based on product code input. Following additional arrangement information can be registered. 1) Account number 2) Whether if created mandatory condition automatically or not 3) A list of arrangement level condition 4) A list of arrangement relation information 5) A list of arrangement extended attribute
+Clone the array.
+Inquire all subsidiary information of the asset thing as a map.
+Clone the array.
+Methods to query configuration conditions - A list of Composing conditions constituting the complex structure is inquired.
+Change the status of arrangement into "Rejected".
+It verifies whether the transaction is possible based on the issued media.
+Inquire all subsidiary information of the appraisal thing as a map.
+Inquire all subsidiary information of the security interest as a map.
+Get distribution target information Query through dstbSrvrId, dstbRqstId, and dstbTaskId.
+This method inquire whether it is a complex condition.
+This method inquires detail information of input amount.
+Clone the array.
+Check whether the service is restricted by the service code. If restricted service, call the error message (AAPSVE0009).
+Clone the array.
+Check whether the service is restricted by the channel code. If restricted service, call the error message (AAPSVE0009).
+Save code detail information
+Store several extended attributes of Subsidiary Information(CTI). Storage logic implemented in the project is performed at the time of performance.
+Inquire effective arrangement condition by product condition code. Perform following actions depending on negotiation level of condition. Caution : - Only the condition codes defined in the product must be used. - How to handle when the value defined according to the negotiation level does not exist product level : check if return value is null arrangement level : check if return value is null or check if return value of hasArrLevelCndVal() exists Usage of condition value - Cast the value according to the type of condition range type : {@link ArrCndRngCore} list type : {@link ArrCndLstCore} interest type : {@link ArrCndIntCore} fee type : {@link ArrCndFeeCore}
+This Method inquire whether or not it is a sallable point on the input date and time.
+View approval list by approval status(for paging)
+Check whether the service is restricted by the service code. If restricted service, call the error message (AAPSVE0009).
+This method inquires the transaction list of the child arrangement that exists under the specific mother arrangement.
+Clone the array.
+Clone the array.
+Clone the array.
+Set default column (for OMM)
+Inquire all subsidiary information of the asset transaction as a map.
+Save the asset transaction subsidiary information using map.
+It verifies whether the service being executed is a service executed by the execution branch or the terminal.
+This function execute the extended attribute business rules that registered in the Contract Services Processing Rules.
+It registers the document notice relation information. Needs caution as the registered information performs the update transaction.
+Clone the array.
+Clone the array.
+Clone the array.
+Clone the array.
+This method inquire institution code of point
+Clone the array.
+Inquire actor role-department relation information list. It inquires the effective and normal status information on transaction date.
+It removes list of External Interface Message Authentication Information.
+Inquire a list of effective passbook event of arrangement on base date.
+Inquire all subsidiary information of the asset thing as a map.
+Clone the array.
+Save an appraisal subsidiary information.
+This method provides the function for inquiring all of subsidiary information about transaction as MAP type.
+Accounting base date inquiry from standard message
+It removes document information.
+- Save of important certificate classification information - Functionalities Registration of important certificate classification information Modify of important certificate classification information
+Validate the attribute value ( Simple Validation ) Implemented and used by each business component.
+Inquire specific department own (as accounting department) arrangements of specific product hierarchy whose status changed into specific status within inquiry period and currently in another specific status. (Paging) Inquire modification arrangement of inquired arrangement if hasVrtnArr is true.
+Inquire specific department own (as accounting department) arrangements of specific product code whose status changed into specific status within inquiry period and currently in another specific status. (Paging) Inquire modification arrangement of inquired arrangement if hasVrtnArr is true.
+Inquire rule contents by kind of arrangement product rule.
+Clone the array.
+Save an appraisal preferential claim subsidiary information.
+Clone the array.
+Method for querying the product template name
+It checks internet channel.
+Inquire variation source arrangement of modification/assessment arrangement.
+It verifies whether the service being executed is a service executed by the execution branch or the terminal.
+Inquire effective arrangement condition by product condition code. The returned condition object can be cast in to each specific type condition object such as {@link ArrCndLst} and {@link ArrCndRng}
+It check code number & code value by cdDtlIO DTO. The arguments for this method is a pair of code number and code. It returns true if there are query result of parameter.
+Clone the array.
+This Method inquire sale start date time of benefit
+Depending on the kind of asset, an appraisal thing subsidiary information kind can be set differently. This method is used when an asset object sets up an appraisal thing subsidiary information kind. This method is used within the core area.
+Clone the array.
+This method inquire institution code.
+Clone the array.
+Check whether extend attribute
+It check code number & code value by cdDtlIO DTO. The arguments for this method is a pair of code number and code. It returns true if there are query result of parameter.
+Create and return arrangement issue media object in "Active" status.
+This method returns the list of code corresponding to the search condition
+Get a list of arrangement issued media template in specific type by profile attribute.
+Save an appraisal thing subsidiary information.
+This method inquire all composing condition list of complex condition. if simple condition, throws Exception. DataCache has been applied.
+Delete the security interest.
+Save a specific extended information of the appraisal request.
+It inquiries currency information list.
+Get a extended information of Subsidiary Information(CTI)
+Check if the issued media is available. Throw error if it is unavailable.
+Check whether the service is restricted by the service code. If restricted service, call the error message (AAPSVE0009).
+This method inquire condition value.
+Save a specific extended information of the asset.
+Save the security interest subsidiary information using map.
+Inquire a list of all extended attributes of arrangement activity.
+This method inquires a transaction sequence number of the transaction.
+Check whether the service is restricted by the service code. If restricted service, call the error message (AAPSVE0009).
+It verifies whether the service being executed is a service executed by the execution branch or the terminal.
+Process the special action to process "Service Process Rule" related to representative service type, which is registered to the specific service. For example, the "Open Deposit" service must validate available channel, available age, and subscribe limit count. These process rules are implemented in seperated classes in terms of each product condition. Each process rule class cab be registered to specific service type in Configuration Admin. Service process rule includes "Product Condition Process Rule" and "Extend Attribute Process Rule". Implementation of product condition process rule : - The rules that should be processed in terms of product condition are implemented in arrangement condition class which implements {@link ArrCndAction}. - To specify : Business Rule > Arrangement Rule > Service Rule > TREE : Select a service type > Product Condition Code TAB Implementation of extend attribute process rule : - The rules that should be processed in terms of product condition are implemented in extend attribute class which implements {@link ArrXtnAtrbtAction}. - To specify : Business Rule > Arrangement Rule > Service Rule > TREE : Select a service type > Extend Attribute Rule TAB Responsibility of implementation of product condition process rule and extend attribute process rule : Each service team in charge of business process implements according to the guide.
+Clone the array.
+Inquire arrangement status change history
+This method provide settlement subsidiary detail information.
+Check whether if the status of arrangement is "ACTIVE".
+Validate Query Row Count for Distribution Validation
+This method inquire condition value decision level code.
+It verifies whether the service being executed is a service executed by the execution branch or the terminal.
+Inquire all subsidiary information of the asset as a map.
+It changes the status of insurance to cancel status
+Inquire a specific subsidiary information of the asset thing.
+Inquire a specific subsidiary information of the asset thing.
+It gets list of http header properties.
+It executes login process of the customer by the input login ID, password and login type code. If login ID and login type code is not input, main login information will be applied. It considers password error count, error allowance count exceeded YN, lock time and password update cycle. It leaves login attempt history. Exception must be handled separately at the service level according to the login result.
+Clone the array.
+It queries the list of variables in the formula.
+Save an appraisal preferential claim subsidiary information.
+It gets list of http header properties.
+Clone the array.
+It activates self authentication. It removes special characters(-.) if authentication type is mobile phone.
+It verifies whether the service being executed is a service executed by the execution branch or the terminal.
+Inquire effective arrangement condition on specific base date by product condition code. Detail function description refers to {@link #getArrCnd(String)}
+Clone the array.
+Save an appraisal thing subsidiary information.
+This Method inquire additional information related to benefit. if there is no additional information code, all additional information inquire
+This method inquires a mother arrangement identification of the transaction.
+Closing after Yn inquiry from standard message
+Clone the array.
+Clone the array.
+Process the special action to process "Service Process Rule" related to representative service type, which is registered to the specific service. For example, the "Open Deposit" service must validate available channel, available age, and subscribe limit count. These process rules are implemented in seperated classes in terms of each product condition. Each process rule class cab be registered to specific service type in Configuration Admin. Service process rule includes "Product Condition Process Rule" and "Extend Attribute Process Rule". Implementation of product condition process rule : - The rules that should be processed in terms of product condition are implemented in arrangement condition class which implements {@link ArrCndAction}. - To specify : Business Rule > Arrangement Rule > Service Rule > TREE : Select a service type > Product Condition Code TAB Implementation of extend attribute process rule : - The rules that should be processed in terms of product condition are implemented in extend attribute class which implements {@link ArrXtnAtrbtAction}. - To specify : Business Rule > Arrangement Rule > Service Rule > TREE : Select a service type > Extend Attribute Rule TAB Responsibility of implementation of product condition process rule and extend attribute process rule : Each service team in charge of business process implements according to the guide.
+This method inquires the basic range condition value of arrangement by specific condition code.
+Clone the array.
+Make the combo-box of Code that meet the search condition. Combo-box is consisted of CaCmnCdCheckOut. (cdNbr, cd, cdNm, delYn, cdAbrvtnNm)
+Clone the array.
+Clone the array.
+Register standard abbreviation(word).
+Inquire total count of specific department own (as accounting department) arrangements whose status changed into specific status within inquiry period and currently in another specific status. Inquire modification arrangement of inquired arrangement if hasVrtnArr is true.
+Clone the array.
+This method inquire mandatory negotiation condition yes or no.
+Clone the array.
+Inquire a specific subsidiary information of the security interest.
+It verifies whether the service being executed is a service executed by the execution branch or the terminal.
+Clone the array.
+It calculates next number. Compared to the default method, the omitted 'instCd' value is replaced by instCd in Common Context. Compared to the default method, the omitted 'isReUseSameTxNbrg' value is replaced by false. Compared to the default method, the omitted 'inpParmMap' value is replaced by null.
+get unique business bean in one transaction
+Get the DTO attribute
+Save an insurance subsidiary information.
+Methods to query card number information
+Inquire Transaction Able Start HMS.
+This method inquire all composing condition list of complex condition. if simple condition, throws Exception. DataCache has been applied.
+Clone the array.
+This method inquire complex condition value of the composing value input value.
+Check whether the service is restricted by the service code. If restricted service, call the error message (AAPSVE0009).
+Clone the array.
+Inquire specific department own (as accounting department) arrangements of specific product hierarchy whose status changed into specific status within inquiry period and currently in other specific status. (Paging) Inquire modification arrangement of inquired arrangement if hasVrtnArr is true.
+Clone the array.
+This method inquire condition code.
+Validate Query for Distribution Validation
+There are several kinds of subsidiary information. This method provides to set the kind of subsidiary information to the transaction object.
+This method inquires the transaction and entry information by specific accounting item code.
+Data is generated for new institutions in each area.
+Inquire all subsidiary information of the appraisal thing as a map.
+Save extended information of the asset thing.
+Clone the array.
+It registers customer agreement code information list. If registered information by the same institution code and agreement type code exists, throws exception.
+It check code number & code value. The arguments for this method is a pair of code number and code. It returns true if there are query result of parameter
+This method save settlement subsidiary detail information using xtnAtrbtNm and xtnAtrbtCntnt.
+Clone the array.
+Inquire the assessment basic information
+Clone the array.
+Inquire list of arrangement/partner relation information.
+The address information list of the asset is inquired according to the asset address type.
+This method inquire condition condition relation.
+Inquire all subsidiary information of the appraisal thing as a map.
+It changes the status of insurance to cancel status
+Inquire specific department own (as accounting department) arrangements whose status changed into specific status within inquiry period and currently in another specific status. (Paging) Inquire modification arrangement of inquired arrangement if hasVrtnArr is true.
+get a extended information of subsidiary information(CTI)
+Save an asset thing subsidiary information.
+Query table extend attribute extend attribute list. table extend attribute extend attribute meaning the actual value of the item defined in the table extend attribute validation composition
+Query table extend attribute list by input condition(cmnContext institution) basic method reference : {@link TblXtnAtrbtCore getTableExtendAttribute(String, String, XtnAtrbtVrtnCmpsEnum, Map<String, String>)}
+Delete a control center basic information.
+Check if the status of arrangement activity is "Cancelled".
+Change status of arrangement issued media into "Active".
+It calculates next number. Compared to the default method, the omitted 'isReUseSameTxNbrg' value is replaced by false. Compared to the default method, the omitted 'inpParmMap' value is replaced by null.
+Clone the array.
+It query institution parameter attribute value simply. if want to get the value of attribute for each institution, use the method instead of instParmMngr.getInstParm method.
+Clone the array.
+Delete all occurrences of the given substring.
+Inquire department object from this institution by department identification.
+This method provides a list of tax rate information by ISO country code, start/end date.
+Inquire existence of arrangement/benefit relation.
+Check whether the service is restricted by the service code. If restricted service, call the error message (AAPSVE0009).
+It modifies customer agreement code information list. If registered information by the same institution code and agreement type code exists, throws exception.
+It closes the customer related person by updating delYn of basic information to 'Y'.
+Inquire specific department own (as accounting department) arrangements of specific product code whose status changed into specific status within inquiry period and currently in another specific status. (Paging)
+Check if the issued media is available. Throw error if it is unavailable.
+This method inquires arrangement list which generates tax during certain period.
+It verifies whether the service being executed is a service executed by the execution branch or the terminal.
+Clone the array.
+Clone the array.
+Inquire children arrangement structure including mandatory and optional.
+Inquire a specific subsidiary information of the security interest.
+Inquire external id number information of specific type registerd to arrangement.
+It calculates next number.
+Clone the array.
+Delete all occurrences of the given substring.
+This method check the code number. If code is exist return true, else return false.
+Inquire mother arrangement of arrangement. Mother-child relation of arrangement : Arrangement of products defined as mother-child relation. The mother arrangement id is managed by the child arrangement.
+Validate Table Extension Attribute Effectiveness
+Delete all occurrences of the given substring.
+This method inquires the currency code.
+This method inquires one at random among the child arrangements of accounts that are concentrated in many transactions, such as a funds settlement account. There are accounts that are concentrated in many transactions, such as a funds settlement account. The performance of these accounts is very important. In order to solve this performance problem, it plays a role to determine the target arrangement object in real time according to the existing contracted condition
+Get a list of arrangement issued media template in specific type by profile attribute.
+Inquire product code of arrangement product. Product classification hierarchy : business distinction code > product type code > product template code > product code
+Register the preferential claim information for the appraisal.
+Inquire the actor extended information map. Inquire extended information with normal extended attribute status code.
+Inquire entire extended information of subsidiary information(CTI) as MAP type.
+Check whether the service is restricted by the service code. If restricted service, call the error message (AAPSVE0009).
+Inquire a specific subsidiary information of the security interest.
+It inquires journalization result of staff's specific financial transaction history using GUID and transaction date. It inquires debit information and credit information in a row.
+Check whether the service is restricted by the service code. If restricted service, call the error message (AAPSVE0009).
+Check whether the service is restricted by the service code. If restricted service, call the error message (AAPSVE0009).
+Clone the array.
+It removes document information.
+Clone the array.
+Change status of arrangement issued media into "Active".
+Change the status of arrangement into "Applied", while change product of arrangement based on product code input. Following additional arrangement information can be registered. 1) Account number 2) Whether if created mandatory condition automatically or not 3) A list of arrangement level condition 4) A list of arrangement relation information 5) A list of arrangement extended attribute
+query approval identification
+This Method inquire additional information related to point. if there is no additional information code, all additional information inquire
+It query institution parameter attribute value simply. if want to get the value of attribute for each institution, use the method instead of instParmMngr.getInstParm method.
+Inquire all subsidiary information of the security interest as a map.
+It inquiries assessment item information list.
+Inquire entire extended information of Subsidiary Information(CTI) as MAP type.
+It inquires the attribute of accounting processing possibility all at once. If the attribute is Y, then accounting processing will be executed without post service handler when settlement component create arrangement transaction.
+Clone the array.
+Inquire customer object by login identification number.
+Change the status of arrangement into "Active".
+Inquire total count of specific department own (as accounting department) arrangements of specific product hierarchy whose status changed into specific status within inquiry period and currently in other specific status. (Paging) Inquire modification arrangement of inquired arrangement if hasVrtnArr is true.
+It returns this the end of the month of the date of the date.
+Clone the array.
+This Method create a condition object. condition information initialization. condition object has condition defined in benefit or common condition information.
+It modifies the actor's due diligence information. It terminates the registered information and register the new input information. It calculates the effective end date by the effective due diligence term defined in configuration.
+Clone the array.
+Clone the array.
+Get List of service code by service profile attribute name and service profile content.
+Clone the array.
+This method provide settlement subsidiary detail information.
+Methods for inquiry benefit names
+Inquire the channel code which the arrangement was agreed.
+Inquire all subsidiary information of the appraisal preferential claim as a map.
+Clone the array.
+It changes the status of insurance to terminate status
+Transaction time Inquiry from standard message
+Create distribution task information.
+Get attribute type
+Get a extended information of Subsidiary Information(CTI)
+Remove a specific extended information of the asset.
+Process the special action to process "Service Process Rule" related to representative service type, which is registered to the specific service. For example, the "Open Deposit" service must validate available channel, available age, and subscribe limit count. These process rules are implemented in seperated classes in terms of each product condition. Each process rule class cab be registered to specific service type in Configuration Admin. Service process rule includes "Product Condition Process Rule" and "Extend Attribute Process Rule". Implementation of product condition process rule : - The rules that should be processed in terms of product condition are implemented in arrangement condition class which implements {@link ArrCndAction}. - To specify : Business Rule > Arrangement Rule > Service Rule > TREE : Select a service type > Product Condition Code TAB Implementation of extend attribute process rule : - The rules that should be processed in terms of product condition are implemented in extend attribute class which implements {@link ArrXtnAtrbtAction}. - To specify : Business Rule > Arrangement Rule > Service Rule > TREE : Select a service type > Extend Attribute Rule TAB Responsibility of implementation of product condition process rule and extend attribute process rule : Each service team in charge of business process implements according to the guide.
+Check whether the service is restricted by the service code. If restricted service, call the error message (AAPSVE0009).
+Clone the array.
+Check whether the service is restricted by the service code. If restricted service, call the error message (AAPSVE0009).
+Clone the array.
+Inquire a specific subsidiary information of the asset thing.
+Check whether if specific document is required for the condition.
+Inquire all subsidiary information of the appraisal as a map.
+Clone the array.
+Inquire specific department own (as accounting department) arrangements whose status changed into specific status within inquiry period and currently in another specific status. Current Status / Base Status / Inquiry Period(Start Date / End Date) Approved / Applied / 1/1 ~ 3/1 : Inquire arrangement applied within 1/1 ~ 3/1 and approved currently. Arrangement whose status was changed into other status on 1/1 is not inquired. Active / Applied / 1/1 ~ 3/1 : Inquire arrangement applied within 1/1 ~ 3/1 and activated currently. Arrangement whose status was changed into other status on 1/1 is not inquired. Active / Active / 1/1 ~ 3/1 : Inquire arrangement activated within 1/1 ~ 3/1 and still activated currently. Arrangement whose status was changed into other status on 1/1 is not inquired.
+Check whether the service is restricted by the service code. If restricted service, call the error message (AAPSVE0009).
+Clone the array.
+Inquire real arrangement using account number and nth number.
+Clone the array.
+Inquire all subsidiary information of the appraisal request as a map.
+Inquire customer basic grade code list of which basicValYn is 'Y'.
+This method get the product condition value information as JSON string.
+It inquiries the Korea Road address.
+Query the list of Code information that meet the search condition.
+It inquires apartment market price information.
+Clone the array.
+Check whether the service is restricted by the service code. If restricted service, call the error message (AAPSVE0009).
+Inquire specific customer own (as main contractor) arrangements of specific product hierarchy whose status changed into specific status within inquiry period and currently in another specific status.
+Clone the array.
+Clone the array.
+Clone the array.
+Inquire the actor's electronic address information list. It inquires the effective information on transaction date.
+This method provides the function for inquiring the last valid transaction date.
+Inquire a list of deposit normal interest rate applied to the arrangement from the open date to the maturity date.
+Set coupled transaction content.
+It inquires role classification relation list
+Store one extended attribute of Subsidiary Information(CTI). Storage logic implemented in the project is performed at the time of performance.
+It check code number & code value. The arguments for this method is a pair of code number and code. It returns true if there are query result of parameter
+Check whether the service is restricted by the service code. If restricted service, call the error message (AAPSVE0009).
+It get a http header properties.
+Clone the array.
+Inquire a extended information of Subsidiary Information(CTI).
+Inquire department fax number from basic information.
+Inquire children arrangement structure including mandatory and optional.
+This method inquire condition group template code.
+Inquire staff delegation role information list that matches the input institution code, department identification and role identification.
+Inquire existence of arrangement/partner relation.
+This method inquire product type name
+Clone the array.
+It inquires the total count of manual entry processing result.
+Check whether the service is restricted by the product code. If restricted service, call the error message (AAPSVE0014).
+Check if arrangement group is in alive status Alive status : Every status except "Cancelled" and "Terminated" ref : {@link ArrGrpStsEnum}
+This method provides balance management parameter information.
+It modifies the actor's due diligence information. It terminates the registered information and register the new input information. It calculates the effective end date by the effective due diligence term defined in configuration.
+It prints temporary issued document.
+Check whether the service is restricted by the service code. If restricted service, call the error message (AAPSVE0009).
+This method inquire all composing condition list in input value complex structure identity. if simple condition, throws Exception. DataCache has been applied.
+Get standard DTO class attribute
+It gets level value of fields in one message.
+It gets list of http header properties.
+Get child arrangement sequence number. This number is created when the arrangement is created as child of the other arrangement ( mother arrangement )
+This method save settlement subsidiary calculation detail information using interface VO
+It check code number & code value. The arguments for this method is a pair of code number and code. It returns true if there are query result of parameter
+It registers or modifies the customer grade code.
+Clone the array.
+Save the appraisal subsidiary information using map.
+This Method inquire sale end time of benefit
+A method that compares the value of a condition class to the value of a list condition.
+Process the special condition related actions for input service according to product condition value or negotiated value. For example, the "Required document" condition has the product required document type for loan application service. The arrangement condition action validate the required document type is received (presented) or not. Another example is the deposit open service, "Interest capitalization YN" condition dose the action to make an interest capitalization arrangement plan on next planed date. This method performs the function of performing product condition management rule registered on system. Implementation of condition management rule : - The rules that should be processed in terms of product condition are implemented according to the arrangement condition class implementation method, and the implemented arrangement condition class should specify the process target class by condition. - To specify : Business Rule > Arrangement Rule Mgmt. > Arrangement Condition Class Caution : - To define condition management rule by service : Business Rule > Arrangement Rule Mgmt. > Arrangement Condition Class > Select service
+Clone the array.
+Department number inquiry from standard message
+Inquire maturity date of arrangement.
+It checks whether DBMS is Oceanbase
+This method Applies the initiated arrangement, and change the arrangement status to applied.
+It inquiries gu gun address list.
+Methods for querying the relationship between condition group template and condition template
+Get the list of issued media template.
+validate by variable type and validation rule.
+This method provide the function that inquires balance verification result by accounting item code.
+Process the special action to process "Service Process Rule" related to specific service type. For example, the "Open Deposit" service must validate available channel, available age, and subscribe limit count. These process rules are implemented in seperated classes in terms of each product condition. Each process rule class cab be registered to specific service type in Configuration Admin. Service process rule includes "Product Condition Process Rule" and "Extend Attribute Process Rule". Implementation of product condition process rule : - The rules that should be processed in terms of product condition are implemented in arrangement condition class which implements {@link ArrCndAction}. - To specify : Business Rule > Arrangement Rule > Service Rule > TREE : Select a service type > Product Condition Code TAB Implementation of extend attribute process rule : - The rules that should be processed in terms of product condition are implemented in extend attribute class which implements {@link ArrXtnAtrbtAction}. - To specify : Business Rule > Arrangement Rule > Service Rule > TREE : Select a service type > Extend Attribute Rule TAB Responsibility of implementation of product condition process rule and extend attribute process rule : Each service team in charge of business process implements according to the guide.
+It inquiries asset region classification information.
+[Get the list of manual entry accounting item code] Inquire the list of manual entry accounting item code. Manual entry accounting item code is a accounting item code processing financial transaction that do not manage balances in each business team. It supports to inquire the list of accounting item code that is registered as a real title accounting and manual entry permission is EXCLUSIVE or COMMON.
+Inquiry institution service.
+Save an insurance subsidiary information.
+Clone the array.
+Clone the array.
+It get a http header properties.
+Clone the array.
+A method that calls a class that is associated with a condition code - class calls Engine
+Query table extend attribute list by no condition(cmnContext institution) basic method reference : {@link TblXtnAtrbtCore getTableExtendAttribute(String, String, XtnAtrbtVrtnCmpsEnum, Map<String, String>)}
+This method inquires the currency code.
+It make the combo-box of Code that meet the search condition. Combo-box is consisted of CaCmnCdCheckOut. (cdNbr, cd, cdNm, delYn, cdAbrvtnNm)
+Clone the array.
+Inquire arrangement plan with plan sequence number.
+Methods for inquiry point names
+Inquire financial institution code where the arrangement is created and managed.
+This method inquires the information of balance type.
+When the staffActorInfoUseYn is 'Y', It registers/modifies actor address information list from actor information. Address information includes address hierarchy code, address basic and detail contents, representing contact point YN, contact prohibition type code and authenticated YN. If the input representing contact method is duplicated with the already registered information, it throws exception.
+It modifies customer agreement code information list. If registered information by the same institution code and agreement type code exists, throws exception.
+Get a extended information of Subsidiary Information(CTI)
+Inquire arrangement activity extend attribute by attribute name.
+Clone the array.
+Clone the array.
+This method inquires settlement subsidiary detail information list (inquire all subsidiary detail information of a given settlement master by using the key value other than the detail sequence number).
+This Method inquire point business distinction code
+Query table extend attribute list by input condition(cmnContext institution) basic method reference : {@link TblXtnAtrbtCore getTableExtendAttribute(String, String, XtnAtrbtVrtnCmpsEnum, Map<String, String>)}
+This method save settlement subsidiary calculation detail information using interface VO
+Inquire institute service lists by profile.
+Register execution result of arrangement plan and execute additional business process implemented in condition class of related condition such as next execution date change, arrangement status change, and saving arrangement plan extended attribute. Change the status of arrangement plan into "Terminated".
+Clone the array.
+It checks if the input password equals the staff's login password. Unlike staff's login process, it only verifies the input password regardless of error count or lock time etc.
+Clone the array.
+Clone the array.
+Perform the condition action related to the specific service type. For example 1 , In case of loan installment disbursement possible condition ,the loan disbursement possible condition class' "doServiceAction" method dose the validation step like 1.investigates disbursed amount, 2.get product condition value whether installment disbursement is allowed, 3. make decision whether the service is permitted or not. The other example, the interest capitalization YN condition class do the action to make a interest capitalization arrangement plan on next planed date when arrangement open service is executed.
+Clone the array.
+This method inquire condition value.
+Clone the array.
+Save an security interest subsidiary information.
+Methods for Exception Handling
+Process the special action to process "Service Process Rule" related to representative service type, which is registered to the specific service. For example, the "Open Deposit" service must validate available channel, available age, and subscribe limit count. These process rules are implemented in seperated classes in terms of each product condition. Each process rule class cab be registered to specific service type in Configuration Admin. Service process rule includes "Product Condition Process Rule" and "Extend Attribute Process Rule". Implementation of product condition process rule : - The rules that should be processed in terms of product condition are implemented in arrangement condition class which implements {@link ArrCndAction}. - To specify : Business Rule > Arrangement Rule > Service Rule > TREE : Select a service type > Product Condition Code TAB Implementation of extend attribute process rule : - The rules that should be processed in terms of product condition are implemented in extend attribute class which implements {@link ArrXtnAtrbtAction}. - To specify : Business Rule > Arrangement Rule > Service Rule > TREE : Select a service type > Extend Attribute Rule TAB Responsibility of implementation of product condition process rule and extend attribute process rule : Each service team in charge of business process implements according to the guide.
+Clone the array.
+Clone the array.
+Clone the array.
+It modifies external interface message authentication information
+This Method inquire whether Preferential Interest provide condition pass apply rule.
+Save the appraisal preferential claim subsidiary information using map.
+Clone the array.
+Clone the array.
+Register a control center basic information.
+It registers document reference attribute list.
+Save the asset transaction subsidiary information using map.
+It gets list of http header properties.
+Processing rules should be commonly performed according to the rules defined in the service processing rule, based on the service type input.
+It inquiries asset kind list by higher asset type code.
+Perform the condition action related to the specific service type. For example 1 , In case of loan installment disbursement possible condition ,the loan disbursement possible condition class' "doServiceAction" method dose the validation step like 1.investigates disbursed amount, 2.get product condition value whether installment disbursement is allowed, 3. make decision whether the service is permitted or not. The other example, the interest capitalization YN condition class do the action to make a interest capitalization arrangement plan on next planed date when arrangement open service is executed.
+Save the appraisal preferential claim subsidiary information using map.
+Save an asset thing subsidiary information.
+Clone the array.
+This Method create multiple condition object inside the range based on the input condition code list
+It verifies whether the service being executed is a service executed by the execution branch or the terminal.
+Inquire a extended information of Subsidiary Information(CTI).
+This method inquires a reckoning date of the transaction.
+Delete the security interest.
+Clone the array.
+This method inquire institution code.
+Clone the array.
+This Method inquire sale end date time of benefit
+Clone the array.
+Clone the array.
+Validate the attribute value ( Simple Validation ) Implemented and used by each business component.
+Clone the array.
+It inquires extended attribute information.
+Clone the array.
+It query institution parameter attribute value simply. if want to get the value of attribute for each institution, use the method.
+Save an appraisal thing subsidiary information.
+Validate the attribute value ( Complex Validation ) Implemented and used by each business component.
+It changes the status of insurance to cancel status
+Get menu set by institution code, user group code, channel code, language code.
+Clone the array.
+This Method verify product condition Error code description 00: Normal 02: No such condition defined under product 03: Condition value is not correct 04: Composing condition value is not correct 05: k condition must be inputed(when the condition is a complex condition) 99: It's composing condition(temporary code)
+Inquire effective arrangement condition on specific date. Caution : base date input is referenced based on as arrangement open date.
+This Method inquire the tier number for complex condition value with composing condition input value.
+It check code number & code value by cdDtlIO DTO. The arguments for this method is a pair of code number and code. It returns true if there are query result of parameter.
+This method returns the list of code corresponding to the search condition
+Clone the array.
+Check whether the service is restricted by the service code. If restricted service, call the error message (AAPSVE0009).
+Clone the array.
+Clone the array.
+Inquire all subsidiary information of the asset as a map.
+It get the code that meet the search condition. Code information is consisted of CmnCdCheckOut. (cdNbr, cd, cdNm, delYn, cdAbrvtnNm)
+It inquire list of product template
+It gets customers' count that matches the input customer name, customer status, name type code, actor type code. It inquires the customers that have similar name with the input name.
+Clone the array.
+Check whether the service is restricted by the service code. If restricted service, call the error message (AAPSVE0009).
+change assessment status
+Clone the array.
+This method inquires settlement subsidiary detail information list (inquire all subsidiary detail information of a given settlement master by using the key value other than the detail sequence number).
+Clone the array.
+Clone the array.
+It check code number & code value by cdDtlIO DTO. The arguments for this method is a pair of code number and code. It returns true if there are query result of parameter.
+Clone the array.
+Clone the array.
+It removes document information.
+Validate Query Row Count for Distribution Validation
+Clone the array.
+Clone the array.
+Save the asset transaction subsidiary information using map.
+The verification rules are performed based on the type of service in the arrangement.
+Check whether the service is restricted by the service code. If restricted service, call the error message (AAPSVE0009).
+This method inquire privide condition value.
+This method modifies an arrangement transaction ledger.
+Store one extended attribute of Subsidiary Information(CTI). Storage logic implemented in the project is performed at the time of performance.
+Clone the array.
+It get a http header properties.
+Change status of arrangement activity into "Terminated".
+Offering terminology that fit with the language code.
+Change the status of arrangement into "Applied".
+Process the special action to process "Service Process Rule" related to representative service type, which is registered to the specific service. For example, the "Open Deposit" service must validate available channel, available age, and subscribe limit count. These process rules are implemented in seperated classes in terms of each product condition. Each process rule class cab be registered to specific service type in Configuration Admin. Service process rule includes "Product Condition Process Rule" and "Extend Attribute Process Rule". Implementation of product condition process rule : - The rules that should be processed in terms of product condition are implemented in arrangement condition class which implements {@link ArrCndAction}. - To specify : Business Rule > Arrangement Rule > Service Rule > TREE : Select a service type > Product Condition Code TAB Implementation of extend attribute process rule : - The rules that should be processed in terms of product condition are implemented in extend attribute class which implements {@link ArrXtnAtrbtAction}. - To specify : Business Rule > Arrangement Rule > Service Rule > TREE : Select a service type > Extend Attribute Rule TAB Responsibility of implementation of product condition process rule and extend attribute process rule : Each service team in charge of business process implements according to the guide.
+This Method inquire product business distinction code
+Inquire a list of customer own (as main contractor) arrangements of specific product hierarchy currently not in "Active" but in alive status. Alive status : APPLIED, PROPOSED, UNDER_EXAMINATION, HOLDING, APPROVED, START_BID, REQUEST_SEND, CONFIRMED, ACTIVE, SUSPENDED, WINNING_BID
+It modifies decimal point of amount according to currency code
+Inquire a specific subsidiary information of the asset.
+This method inquire institution code.
+Save an security interest subsidiary information.
+This Method creates a list of all condition objects defined in point within the date range.
+Clone the array.
+Inquire entire extended information of Subsidiary Information(CTI) as MAP type.
+Clone the array.
+Validate Query Row Count for Distribution Validation
+Clone the array.
+Clone the array.
+Clone the array.
+Clone the array.
+It get a http header properties.
+Save an asset subsidiary information.
+It get a http header properties.
+This method save settlement subsidiary detail information using subInfoMap.
+Save an asset subsidiary information.
+Validate that the value of the input attribute matches the type of the attribute.
+It checks if the input password equals the staff's login password and executes login process. It considers error allowance count and lock time when verifying password, and leaves login history after checking password.
+It inquiries the Korea road address with road name list.
+It gets list of http header properties.
+It performs calculations.
+Save the appraisal preferential claim subsidiary information using map.
+Save an insurance subsidiary information.
+Inquire effective arrangement condition by product condition ENUM. Detail function description refers to {@link #getArrCnd(String)}
+It verifies whether the service being executed is a service executed by the execution branch or the terminal.
+Inquire product of arrangement
+Inquire the product type, product template, and product code list according to the search conditions. Input Example) Business classification: Product type list inquiry Business classification, product type: Product template list check Business classification, product type, product template: Product list check
+Save menu detail.
+This method inquires a currency code of the transaction.
+Clone the array.
+Clone the array.
+Clone the array.
+Clone the array.
+Inquire a specific subsidiary information of the appraisal.
+It changes the status of insurance to cancel status
+This method provides the function for inquiring all of subsidiary information about transaction as MAP type.
+Process the special condition related actions for input service according to product condition value or negotiated value. For example, the "Required document" condition has the product required document type for loan application service. The arrangement condition action validate the required document type is received (presented) or not. Another example is the deposit open service, "Interest capitalization YN" condition dose the action to make an interest capitalization arrangement plan on next planed date. This method performs the function of performing product condition management rule registered on system. Implementation of condition management rule : - The rules that should be processed in terms of product condition are implemented according to the arrangement condition class implementation method, and the implemented arrangement condition class should specify the process target class by condition. - To specify : Business Rule > Arrangement Rule Mgmt. > Arrangement Condition Class Caution : - To define condition management rule by service : Business Rule > Arrangement Rule Mgmt. > Arrangement Condition Class > Select service
+It registers or modifies the customer grade code.
+It removes document information.
+Update Consistency Validation Detail Data(Start)
+This method inquire condition type code
+Clone the array.
+Clone the array.
+Inquire whether if arrangement issued media is effective. Not available status for transaction : Arrangement issued media status is Suspended, Terminated, Canceled or active service blocking is regisetered on the media
+Query institution institution parameter object list.
+It inquires role name by role id
+Clone the array.
+Check if arrangement group is in "Active" status.
+Save an asset transaction subsidiary information.
+Check whether the service is restricted by the service code. If restricted service, call the error message (AAPSVE0009).
+Change maturity date of standing order.
+Clone the array.
+Inquire all subsidiary information of the appraisal as a map.
+Check whether the service is restricted by the service code. If restricted service, call the error message (AAPSVE0009).
+Return whether arrangement object has the extended attribute.
+Clone the array.
+Delete all occurrences of the given substring.
+It get a http header properties.
+This Method create a list of condition objects for the list of input condition codes. condition information initialization. condition object has condition defined in benefit or common condition information.
+Inquire entire extended information of Subsidiary Information(CTI) as MAP type.
+Clone the array.
+This method inquires the list of normal account transactions that belong to the arrangement. The result of inquiry is different according to the passbook inquiry distinction code entered(stTxPsbkHstIn.psbkInqryDstnctnCd). A transaction that is inquired is a transaction that satisfies the input condition, whether the psbkOutpTrgtYn(passbook output) of transaction extended information is Y or null, and whether it is fnclTxYn(financial transaction) is Y and status of transaction is 1(normal). ※ Inquiry result(return value) by passbook inquiry distinction code & required fields in StTxPsbkHstIn 1. AFTER_SPECIFIC_DATE(01) : passbook transactions after a certain date - required fields : psbkInqryDstnctnCd, txDt 2. AFTER_SPECIFIC_TRANSACTION(02) : passbook transactions after a specific transaction(exclude the specific transaction) - required fields : psbkInqryDstnctnCd, txDt, txSeqNbr 3. AFTER_SPECIFIC_TRANSACTION_INCLUDING_THAT(03) : passbook transactions after the specific transaction(include the specific transaction). - required fields : psbkInqryDstnctnCd, txDt, txSeqNbr 4. RECENTLY(04) : recent passbook transactions in the arrangement (order by transaction date) - required fields : psbkInqryDstnctnCd 5. PERIOD(05) : passbook transactions traded in the input inquiry section - required fields : psbkInqryDstnctnCd, inqryStartDt, inqryEndDt
+Clone the array.
+This method inquires a service name of the transaction.
+Save the appraisal subsidiary information using map.
+It inquiries asset region classification information list.
+Process the special condition related actions for input service according to product condition value or negotiated value. For example, the "Required document" condition has the product required document type for loan application service. The arrangement condition action validate the required document type is received (presented) or not. Another example is the deposit open service, "Interest capitalization YN" condition dose the action to make an interest capitalization arrangement plan on next planed date. This method performs the function of performing product condition management rule registered on system. Implementation of condition management rule : - The rules that should be processed in terms of product condition are implemented according to the arrangement condition class implementation method, and the implemented arrangement condition class should specify the process target class by condition. - To specify : Business Rule > Arrangement Rule Mgmt. > Arrangement Condition Class Caution : - To define condition management rule by service : Business Rule > Arrangement Rule Mgmt. > Arrangement Condition Class > Select service
+Check whether the service is restricted by the service code. If restricted service, call the error message (AAPSVE0009).
+Clone the array.
+Clone the array.
+This method inquire preferential interest rate complex condition value by the value of the composing condition and the value of the provide condition.
+Query attribute validation extend rule
+Save the asset subsidiary information using map.
+This method updates receipt information of suspended fee. Specifically, it updates receipt status code(receipt after suspended 03) and receipt transaction information.
+get a extended information of subsidiary information(CTI)
+Change the status of arrangement into "Applied".
+Clone the array.
+Clone the array.
+Inquire all subsidiary information of the appraisal preferential claim as a map.
+staff identification inquiry from standard message
+Delete the security interest.
+Change status of arrangement issued media into "Terminated".
+Save arrangement activity extend attribute. Change arrangement activity extend attribute if there is an extend attribute with same attribute name already.
+Clone the array.
+It removes document information.
+Validate the attribute value ( Complex Validation ) Implemented and used by each business component.
+This Method create multiple condition object inside the range based on the input condition code list
+Clone the array.
+Inquire institution code of arrangement activity.
+Process the special action to process "Service Process Rule" related to representative service type, which is registered to the specific service. For example, the "Open Deposit" service must validate available channel, available age, and subscribe limit count. These process rules are implemented in seperated classes in terms of each product condition. Each process rule class cab be registered to specific service type in Configuration Admin. Service process rule includes "Product Condition Process Rule" and "Extend Attribute Process Rule". Implementation of product condition process rule : - The rules that should be processed in terms of product condition are implemented in arrangement condition class which implements {@link ArrCndAction}. - To specify : Business Rule > Arrangement Rule > Service Rule > TREE : Select a service type > Product Condition Code TAB Implementation of extend attribute process rule : - The rules that should be processed in terms of product condition are implemented in extend attribute class which implements {@link ArrXtnAtrbtAction}. - To specify : Business Rule > Arrangement Rule > Service Rule > TREE : Select a service type > Extend Attribute Rule TAB Responsibility of implementation of product condition process rule and extend attribute process rule : Each service team in charge of business process implements according to the guide.
+This method provide settlement subsidiary detail information.
+Save the asset transaction subsidiary information using map.
+This Method inquire sale start time of benefit
+This method gets the sequence number of transaction about specific arrangement. - It gets the sequence number of transaction no transaction date about one arrangement in Core. - This function can be customized in site.
+It inquires basic information of security interest.
+Inquire target deposit arrangement if intra_institution standing order.
+It inquiries client information.
